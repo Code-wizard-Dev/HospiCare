@@ -1,0 +1,84 @@
+.main-about {
+    padding: 2rem 7%;
+    width: 100%;
+    background-image: url("/src/assets/images/backgroung-pattern-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-about .about-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--maincolor);
+    border-bottom: 2px solid #4cb4f0fd;
+    width: 200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+#font {
+    width: 100px;
+}
+
+.inner-main-about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about-inner-content-left {
+    flex: 1 1 40rem;
+}
+
+.about-inner-content-left img {
+    width: 90%;
+    padding: 2rem;
+}
+
+.about-inner-content {
+    flex: 1 1 45rem;
+}
+
+.about-inner-content img {
+    width: 100%;
+}
+
+.about-right-content h2 {
+    font-size: 30px;
+    padding: 1.5rem 0;
+    color: black;
+    font-weight: bolder;
+    line-height: 4rem;
+}
+
+.about-right-content p {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    color: var(--textcolor);
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+.aboutsec-content {
+    line-height: 2.5rem !important;
+}
+
+.aboutbtn {
+    padding: 1.5rem 3rem;
+    background-color: transparent;
+    border: 1px solid var(--maincolor);
+    margin-top: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.5s all;
+}
+
+.aboutbtn:hover {
+    background-color: var(--secondcolor);
+    color: white;
+    border: none;
+    padding: 1.5rem 3.5rem;
+}

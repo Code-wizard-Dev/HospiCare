@@ -1,0 +1,129 @@
+footer {
+    width: 100%;
+    height: 30.0rem;
+    background-color: #4A5764;
+    position: relative;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: white;
+}
+
+.row {
+    width: 90%;
+    display: flex;
+    bottom: 0;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.col {
+    flex-basis: 15%;
+    padding-right: 5rem;
+    color: white;
+}
+
+.col:nth-child(5) {
+    flex-basis: 25%;
+    float: right;
+}
+
+.bottom-logo {
+    padding: 4rem 4rem;
+}
+
+.add {
+    position: relative;
+    margin-top: 13.0rem;
+    color: grey;
+}
+
+.footer-heading {
+    position: relative;
+    margin-top: 6.0rem;
+    color: white;
+    font-size: 2.4rem;
+    font-family: arial;
+}
+
+.footer-list ul {
+    color: grey;
+    margin-bottom: 3.0rem;
+    margin-top: 3.0rem;
+}
+
+.footer-list li {
+    color: grey;
+    ;
+    list-style-type: none;
+    margin-bottom: 1.7rem;
+}
+
+.footer-list li:nth-child(1) {
+    margin-top: 3.0rem;
+}
+
+.footer-list li a {
+    color: grey;
+    ;
+    text-decoration: none;
+    font-family: calibri;
+}
+
+form {
+    margin-top: 6.0rem;
+}
+
+form .fa-regular {
+    font-size: 2.5rem;
+}
+
+.bx bx-right-arrow-alt {
+    font-size: 3.0rem;
+    color: white;
+}
+
+form .email {
+    font-size: 1.8rem;
+    border: 0;
+    background: transparent;
+    outline: none;
+    color: white;
+    border-bottom: 0.1rem solid grey;
+    padding-left: 0.5rem;
+    width: 70%;
+}
+
+.fa-solid {
+    font-size: 3.0rem;
+    margin-top: 2.0rem;
+    cursor: pointer;
+}
+
+.social-icons {
+    position: relative;
+    font-size: 3.0rem;
+    padding-top: 4.0rem;
+    z-index: 1;
+}
+
+.social-icons .fa-brands {
+    margin-right: 1.2rem;
+    font-size: 3.SS4rem;
+    cursor: pointer;
+}
+
+#icons {
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.bx {
+    display: none;
+}
+
+#check {
+    display: none;
+}

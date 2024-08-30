@@ -1,0 +1,45 @@
+.about-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+.about-header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.key-features {
+    padding: 20px 0;
+}
+
+.key-features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.key-features li {
+    background: #e7e7e7;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.history,
+.testimonials,
+.team,
+.contact-cta {
+    padding: 20px 0;
+}
+
+.team-member {
+    text-align: center;
+    padding: 10px;
+}
